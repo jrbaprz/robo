@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-const cardList = ({ robots }) => {
+const CardList = ({ robots }) => {
   return (
     <>
       {robots.map((user, i) => {
@@ -19,4 +19,4 @@ const cardList = ({ robots }) => {
   );
 };
 
-export default cardList;
+export default CardList;
